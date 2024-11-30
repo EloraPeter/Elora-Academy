@@ -25,5 +25,9 @@ nav{
     font-size: 15px;
 }
 #nav-link li a{
-    
+    text-decoration: none;
+    color: black;
+}
+#nav-link li a:hover{
+    text-decoration: 2px rgb(238, 81, 8) solid underline ; 
 }
