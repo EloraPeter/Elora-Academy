@@ -51,7 +51,12 @@ nav{
     margin: 10px auto;
     text-align: center;
 }
-
+.cta-btn{
+    padding: 10px 15px;
+    background-color: rgb(238, 81, 8);
+    color: white;
+    margin: 10px auto;
+}
 
 
 
