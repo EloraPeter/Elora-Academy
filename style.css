@@ -22,4 +22,8 @@ nav{
 #nav-link li{
     list-style: none;
     margin: 10px;
+    font-size: 15px;
+}
+#nav-link li a{
+    
 }
