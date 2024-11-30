@@ -32,5 +32,6 @@ nav{
     text-decoration: 2px rgb(238, 81, 8) solid underline ; 
 }
 .hero{
+    height: 100vh;
     
 }
