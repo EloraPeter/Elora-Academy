@@ -33,5 +33,8 @@ nav{
 }
 .hero{
     height: 100vh;
-    
+}
+.hero h1{
+    font-size: 100px;
+    text-align: center;
 }
