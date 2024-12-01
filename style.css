@@ -33,6 +33,7 @@ nav{
 }
 .hero{
     height: 100vh;
+    padding: 20% auto;
 }
 .hero h1{
     font-size: 100px;
