@@ -39,6 +39,7 @@ nav{
 .hero{
     height: 100vh;
     padding: 20% auto;
+    position: relative;
     background: linear-gradient(rgba(233, 71, 71, 0.7), rgba(122, 11, 11, 0.4)), url(images/hero.webp);
 }
 .hero .hero-title {
@@ -91,6 +92,7 @@ nav{
    width: 70%;
    margin: 0 auto;
    position: absolute;
+   top: 95%;
 }
 
 
