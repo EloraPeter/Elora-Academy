@@ -85,7 +85,13 @@ nav{
 }
 
 /*--------------- about------------------------ */
-
+#about{
+   background-color: #ff0f0f;
+   padding: 30px;
+   width: 70%;
+   margin: 0 auto;
+   position: absolute;
+}
 
 
 
