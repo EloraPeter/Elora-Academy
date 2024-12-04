@@ -9,10 +9,12 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 10px 20px;
 }
 #logo{
     width: 100px;
     height: auto;
+    border-radius: 50%;
 }
 #nav-link{
     display: flex;
@@ -24,9 +26,12 @@ nav{
     margin: 10px;
     font-size: 15px;
 }
+#nav-link li:hover{
+    
+}
 #nav-link li a{
     text-decoration: none;
-    color: black;
+    color: #fff;
 }
 #nav-link li a:hover{
     text-decoration: 2px rgb(238, 81, 8) solid underline ; 
@@ -34,7 +39,7 @@ nav{
 .hero{
     height: 100vh;
     padding: 20% auto;
-    background: linear-gradient(rgba(248, 98, 98, 0.7), rgba(167, 62, 62, 0.4)), url(images/hero.webp);
+    background: linear-gradient(rgba(233, 71, 71, 0.7), rgba(122, 11, 11, 0.4)), url(images/hero.webp);
 }
 .hero h1{
     font-size: 100px;
