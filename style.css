@@ -27,7 +27,7 @@ nav{
     font-size: 15px;
 }
 #nav-link li:hover{
-    
+    transform: scale(1.2);
 }
 #nav-link li a{
     text-decoration: none;
