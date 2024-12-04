@@ -94,6 +94,7 @@ nav{
    position: absolute;
    top: 95%;
    left: 15%;
+   
 }
 
 #about .about-container {
@@ -102,7 +103,7 @@ nav{
 
 
 
-
+/* -------------------mission------------------- */
 #mission{
     margin-top: 100px;
 }
