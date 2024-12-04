@@ -34,6 +34,7 @@ nav{
 .hero{
     height: 100vh;
     padding: 20% auto;
+    background: linear-gradient(rgba(248, 98, 98, 0.7), rgba(167, 62, 62, 0.4)), url(images/hero.webp);
 }
 .hero h1{
     font-size: 100px;
