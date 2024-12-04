@@ -87,12 +87,12 @@ nav{
 
 /*--------------- about------------------------ */
 #about{
-   background-color: #ff0f0fb4;
+   background-color: rgba(238, 81, 8, 0.7);
    padding: 50px;
    width: 70%;
    margin: 0 auto;
    position: absolute;
-   top: 95%;
+   top: 90%;
    left: 14%;
    border-radius: 30px;
 }
