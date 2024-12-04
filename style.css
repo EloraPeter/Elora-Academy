@@ -88,19 +88,23 @@ nav{
 /*--------------- about------------------------ */
 #about{
    background-color: #ff0f0f;
-   padding: 30px;
+   padding: 50px;
    width: 70%;
    margin: 0 auto;
    position: absolute;
    top: 95%;
    left: 15%;
-   
+   border-radius: 30px;
 }
 
 #about .about-container {
-
+   text-align: center;
 }
 
+#about .about-container h2{
+    color: #fff;
+    font-size: 40px;
+}
 
 
 /* -------------------mission------------------- */
