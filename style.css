@@ -68,13 +68,15 @@ nav{
     padding: 20px 35px;
     background-color: rgb(238, 81, 8);
     color: white;
-    margin: 30px auto;
     text-decoration: none;
     border-radius: 20px;
 }
 .cta-btn:hover{
     background-color: #fff;
     color: #000;
+}
+.btn{
+    margin: 30px auto;
 }
 .btn:hover{
     transform: scale(1.2);
