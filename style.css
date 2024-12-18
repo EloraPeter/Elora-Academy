@@ -118,11 +118,28 @@ nav{
     margin-top: 200px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
-
-
-
-
+#mission .mission-image{
+    margin: 0 20px;
+}
+#mission .mission-image img{
+    width: 800px;
+    height: auto;
+    border-radius: 20px;
+}
+#mission .mission-text{
+    text-align: center;
+    padding: 0 20px;
+}
+#mission .mission-text h2{
+    font-size: 50px;
+    color: rgb(238, 81, 8);
+}
+#mission .mission-text p{
+    line-height: 2;
+    font-size: 20px;
+}
 
 
 
