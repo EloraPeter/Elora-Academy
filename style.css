@@ -141,6 +141,108 @@ nav{
     font-size: 20px;
 }
 
+/* ===============value========================= */
+#values{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#values .value-image{
+    margin: 0 20px;
+}
+#values .value-image img{
+    width: 800px;
+    height: auto;
+    border-radius: 20px;
+}
+#values .value-text{
+    text-align: center;
+    padding: 0 20px;
+}
+#values .value-text h2{
+    font-size: 50px;
+    color: rgb(238, 81, 8);
+}
+#values .value-text p{
+    line-height: 2;
+    font-size: 20px;
+}
+
+/* -----------------offer---------------------------- */
+#offer{
+    margin: 50px 20px;
+}
+#offer h2{
+    font-size: 50px;
+    color: rgb(238, 81, 8);
+    text-align: center;
+}
+#offer .offer-container{
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: space-between;
+    align-items: center;
+    margin: 25px auto;
+}
+#offer .offer-container .offer-item{
+    width: 500px;
+    height: 100px;
+    padding: 20px 10px;
+    margin: 0 5px;
+    background-color: rgb(245, 238, 235);
+    border-radius: 10px;
+}
+#offer .offer-container .offer-item h3{
+    font-size: 20px;
+    color: rgb(197, 120, 85);
+    margin-bottom: 10px;
+}
+#offer .offer-container .offer-item p{
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* -------------------courses------------------------------ */
+#course{
+    margin: 50px 20px;
+}
+#course h2{
+    text-align: center;
+    font-size: 50px;
+    color: rgb(238, 81, 8);
+    margin: 20px 0;
+}
+#course .course-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 25px auto;
+}
+#course .course-container .course-item{
+    margin: 0 10px;
+    width: 400px;
+    height: 600px;
+    border-radius: 10px;
+    background-color: rgb(245, 238, 235);
+}
+#course .course-container .course-item .course-image{
+    width: 100%;
+    height: 300px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
