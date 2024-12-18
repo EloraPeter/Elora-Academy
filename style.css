@@ -240,7 +240,13 @@ nav{
 
 }
 #course .course-container .course-item .course-text h3{
-    
+    font-size: 20px;
+    color: rgb(197, 120, 85);
+    margin-bottom: 10px;
+}
+#course .course-container .course-item .course-text p{
+    font-size: 16px;
+    line-height: 1.5;
 }
 
 
