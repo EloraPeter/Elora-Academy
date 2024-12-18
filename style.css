@@ -236,7 +236,6 @@ nav{
 }
 #course .course-container .course-item .course-text{
     padding: 5px 10px;
-
 }
 #course .course-container .course-item .course-text h3{
     font-size: 20px;
@@ -248,9 +247,17 @@ nav{
     line-height: 1.5;
 }
 
+/* ===================extracurriculars======================== */
 
-
-
+#extracurriculars{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#extracurriculars .extracurricular-info{
+    
+}
 
 
 
