@@ -314,7 +314,7 @@ nav{
 
 /* ----------------------facilities---------------------------- */
 #facilities {
-    margin: 50px 20px;
+    margin: 50px 0;
     background-color: rgba(245, 238, 235, 0.8);
     padding: 50px 20px;
     border-radius: 20px;
@@ -335,7 +335,7 @@ nav{
     /* width: 300px;
     height: 300px; */
     /* margin: 20px; */
-    text-align: center;
+    /* text-align: center; */
     /* background-color: #fff; */
     /* border-radius: 20px; */
     /* box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); */
@@ -346,10 +346,10 @@ nav{
     transform: scale(1.1);
 }
 #facilities .facility-item img{
-    width: 100%;
+    width: 85%;
 }
 #facilities .facility-item p {
-    font-size: 16px;
+    font-size: 20px;
     color: #333;
     line-height: 1.5;
 }
