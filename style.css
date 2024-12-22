@@ -429,6 +429,10 @@ nav{
     line-height: 1.5;
     color: #333;
 }
+#testimonials .testimonial-item p i{
+    color: rgb(197, 120, 85);
+    font-size: 20px;
+}
 #testimonials .testimonial-item cite {
     margin-top: 10px;
     font-size: 20px;
