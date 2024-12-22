@@ -420,9 +420,10 @@ nav{
     background-color: rgba(245, 238, 235, 0.9);
     margin: 20px;
     border-radius: 20px;
-    padding: 20px;
+    padding: 10px 20px;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
     text-align: left;
+    position: relative;
 }
 #testimonials .testimonial-item p {
     font-size: 16px;
@@ -431,7 +432,7 @@ nav{
 }
 #testimonials .testimonial-item p i{
     color: rgb(197, 120, 85);
-    font-size: 30px;
+    font-size: 20px;
     margin: 15px 10px;
 }
 #testimonials .testimonial-item cite {
@@ -441,29 +442,57 @@ nav{
 }
 #testimonials .testimonial-item .testi-image{
     border-radius: 50%;
-    height: 60px;
-    width: 60px;
+    height: 70px;
+    width: 70px;
     background-color: rgb(197, 120, 85);
     padding: 2px;
+    position: absolute;
+    bottom: 5px;
+    right: 10px;
+    transition: 0.3s ease-in-out all;
+}
+#testimonials .testimonial-item .testi-image:hover{
+    transform: scale(1.2);
 }
 #testimonials .testimonial-item .testi-image img{
     border-radius: 50%;
-    width: 90%;
-    height: 90%;
+    width: 95%;
+    height: 95%;
     margin: 2px;
 }
-
 
 /* ----------------------footer------------------------------- */
 footer {
     background-color: rgb(238, 81, 8);
     color: #fff;
-    text-align: center;
-    padding: 20px 10px;
+    /* text-align: center; */
+    padding: 30px 10px 0;
     margin-top: 50px;
-    border-radius: 10px;
 }
-footer p {
+footer .footer-info{
+    display: flex;
+    justify-content: space-between;
+}
+footer .footer-info .about{
+    width: 50%;
+
+}
+footer .footer-info .about h3{
+    font-size: 25px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+footer .footer-info .about p{
+    font-size: 16px;
+    color: #fff;
+    line-height: 1.5;
+    margin-bottom: 30px;
+}
+footer .footer-info .contact{
+    
+}
+
+/* footer p {
     font-size: 16px;
     margin: 5px 0;
 }
@@ -474,4 +503,4 @@ footer a {
 footer a:hover {
     text-decoration: none;
     color: rgb(245, 238, 235);
-}
+} */
