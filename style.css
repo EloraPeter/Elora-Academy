@@ -580,6 +580,10 @@ footer .footer-info .contact .contact-link a{
     text-decoration: none;
     font-size: 18px;
 }
+footer a:hover {
+    text-decoration: none;
+    color: rgb(238, 91, 23);
+}
 
 /* footer p {
     font-size: 16px;
@@ -589,7 +593,4 @@ footer a {
     color: #fff;
     text-decoration: underline;
 }
-footer a:hover {
-    text-decoration: none;
-    color: rgb(245, 238, 235);
-} */
+ */
