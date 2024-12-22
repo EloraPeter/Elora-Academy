@@ -539,6 +539,7 @@ footer {
 footer .footer-info {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 20px;
 }
 
 footer .footer-info .about {
@@ -640,8 +641,26 @@ footer .footer-info .terms ul li a:hover {
     text-decoration: underline 2px solid;
     color: rgb(219, 166, 141);
 }
+hr{
+    margin: 30px 0;
+    border: none;
+    border-top: 1px solid #a8a8a8;
+}
 
-footer .footer-info .copyright {
-    color: #fff;
+footer .copyright{
+    color: #e8e8e8;
     font-size: 14px;
+    text-align: center;
+}
+footer .copyright #designer{
+    font-size: 10px;
+    color: #a8a8a8;
+}
+footer .copyright #designer a{
+    color: rgba(122, 11, 11, 0.4);
+    text-decoration: none;
+}
+footer .copyright #designer a:hover{
+    color: rgb(197, 120, 85);
+    text-decoration: 1px solid;
 }
