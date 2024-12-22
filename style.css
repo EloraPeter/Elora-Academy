@@ -596,14 +596,18 @@ footer .footer-info .socials .social-link {
     list-style: none;
 }
 footer .footer-info .socials .social-link li{
-    
+
 }
 footer .footer-info .socials .social-link li i{
-    margin-right: 10px;
+    margin: 5px 10px 5px 0;
     font-size: 25px;
 }
 footer .footer-info .socials .social-link li a{
-    margin: 10px;
     font-size: 18px;
     color: #fff;
+    text-decoration: none;
+}
+footer .footer-info .socials .social-link li a:hover{
+    text-decoration: underline 2px solid;
+    color: rgb(219, 166, 141);
 }
