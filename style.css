@@ -584,5 +584,14 @@ footer .footer-info .contact .contact-link a:hover{
     text-decoration: underline 2px solid;
     color: rgb(219, 166, 141);
 }
+footer .footer-info .socials{
 
-
+}
+footer .footer-info .socials h3 {
+    font-size: 25px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+footer .footer-info .socials .social-link {
+    list-style: none;
+}
