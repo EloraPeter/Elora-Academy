@@ -580,17 +580,9 @@ footer .footer-info .contact .contact-link a{
     text-decoration: none;
     font-size: 18px;
 }
-footer a:hover {
-    text-decoration: none;
-    color: rgb(238, 91, 23);
+footer .footer-info .contact .contact-link a:hover{
+    text-decoration: underline 2px solid;
+    color: rgb(219, 166, 141);
 }
 
-/* footer p {
-    font-size: 16px;
-    margin: 5px 0;
-}
-footer a {
-    color: #fff;
-    text-decoration: underline;
-}
- */
+
