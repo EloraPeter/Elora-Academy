@@ -416,6 +416,7 @@ nav{
 }
 #testimonials .testimonial-item {
     width: 400px;
+    height: 200px;
     background-color: rgba(245, 238, 235, 0.9);
     margin: 20px;
     border-radius: 20px;
@@ -435,16 +436,16 @@ nav{
 }
 #testimonials .testimonial-item .testi-image{
     border-radius: 50%;
-    height: 100px;
-    width: 100px;
+    height: 50px;
+    width: 50px;
     background-color: rgb(197, 120, 85);
-    padding: 5px;
+    padding: 2px;
 }
 #testimonials .testimonial-item .testi-image img{
     border-radius: 50%;
     width: 90%;
     height: 90%;
-    margin: 5px;
+    margin: 2px;
 }
 
 
