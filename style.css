@@ -346,7 +346,8 @@ nav{
     transform: scale(1.1);
 }
 #facilities .facility-item img{
-    width: 85%;
+    width: 100%;
+    border-radius: 20px;
 }
 #facilities .facility-item p {
     font-size: 20px;
@@ -354,7 +355,11 @@ nav{
     line-height: 1.5;
     
 }
-#facilities .facility-item p.dey
+#facilities .facility-item p.detail{
+    font-size: 20px;
+    color: #333;
+    text-align: center;
+}
 
 
 /* ---------------technologies-------------------------------------- */
