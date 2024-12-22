@@ -431,7 +431,8 @@ nav{
 }
 #testimonials .testimonial-item p i{
     color: rgb(197, 120, 85);
-    font-size: 20px;
+    font-size: 30px;
+    margin: 15px 10px;
 }
 #testimonials .testimonial-item cite {
     margin-top: 10px;
