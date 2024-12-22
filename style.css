@@ -1,63 +1,76 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
-body{
+
+body {
     font-family: Arial, sans-serif;
 }
-nav{
+
+nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
 }
-#logo{
+
+#logo {
     width: 100px;
     height: auto;
     border-radius: 50%;
 }
-#nav-link{
+
+#nav-link {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-#nav-link li{
+
+#nav-link li {
     list-style: none;
     margin: 10px;
     font-size: 15px;
 }
-#nav-link li:hover{
+
+#nav-link li:hover {
     transform: scale(1.2);
 }
-#nav-link li a{
+
+#nav-link li a {
     text-decoration: none;
     color: #fff;
 }
-#nav-link li a:hover{
-    text-decoration: 2px rgb(238, 81, 8) solid underline ; 
+
+#nav-link li a:hover {
+    text-decoration: 2px rgb(238, 81, 8) solid underline;
 }
-.hero{
+
+.hero {
     height: 100vh;
     padding: 20% auto;
     position: relative;
     background: linear-gradient(rgba(233, 71, 71, 0.7), rgba(122, 11, 11, 0.4)), url(images/hero.webp);
 }
+
 .hero .hero-title {
     margin-top: 5%;
 }
-.hero h1{
+
+.hero h1 {
     font-size: 100px;
     text-align: center;
-    margin: 10px 0 ;
+    margin: 10px 0;
     color: #fff;
 }
-.hero h2{
+
+.hero h2 {
     font-size: 60px;
     text-align: center;
     margin: 10px 0;
     color: #ffffd9;
 }
-.hero p{
+
+.hero p {
     width: 60%;
     font-size: 20px;
     line-height: 2;
@@ -65,127 +78,145 @@ nav{
     text-align: center;
     color: #ffffd1;
 }
-.cta-btn{
+
+.cta-btn {
     padding: 20px 35px;
     background-color: rgb(238, 81, 8);
     color: white;
     text-decoration: none;
     border-radius: 20px;
 }
-.cta-btn:hover{
+
+.cta-btn:hover {
     transition: all 0.5s ease;
     background-color: #fff;
     color: #000;
 }
-.btn{
+
+.btn {
     margin: 30px auto;
 }
-.btn:hover{
+
+.btn:hover {
     transition: all 0.5s ease;
     transform: scale(1.2);
 }
 
 /*--------------- about------------------------ */
-#about{
-   background-color: rgba(238, 81, 8, 0.7);
-   padding: 50px;
-   width: 70%;
-   margin: 0 auto;
-   position: absolute;
-   top: 90%;
-   left: 14%;
-   border-radius: 30px;
+#about {
+    background-color: rgba(238, 81, 8, 0.7);
+    padding: 50px;
+    width: 70%;
+    margin: 0 auto;
+    position: absolute;
+    top: 90%;
+    left: 14%;
+    border-radius: 30px;
 }
 
 #about .about-container {
-   text-align: center;
+    text-align: center;
 }
 
-#about .about-container h2{
+#about .about-container h2 {
     color: #fff;
     font-size: 50px;
 }
 
-#about .about-container p{
+#about .about-container p {
     color: #ffffd9;
     font-size: 20px;
     line-height: 1.5;
     width: 70%;
     margin: 0 auto;
 }
+
 /* -------------------mission------------------- */
-#mission{
+#mission {
     margin-top: 200px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-#mission .mission-image{
+
+#mission .mission-image {
     margin: 0 20px;
 }
-#mission .mission-image img{
+
+#mission .mission-image img {
     width: 800px;
     height: auto;
     border-radius: 20px;
 }
-#mission .mission-text{
+
+#mission .mission-text {
     text-align: center;
     padding: 0 20px;
 }
-#mission .mission-text h2{
+
+#mission .mission-text h2 {
     font-size: 50px;
     color: rgb(238, 81, 8);
 }
-#mission .mission-text p{
+
+#mission .mission-text p {
     line-height: 2;
     font-size: 20px;
 }
 
 /* ===============value========================= */
-#values{
+#values {
     margin-top: 50px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-#values .value-image{
+
+#values .value-image {
     margin: 0 20px;
 }
-#values .value-image img{
+
+#values .value-image img {
     width: 800px;
     height: auto;
     border-radius: 20px;
 }
-#values .value-text{
+
+#values .value-text {
     text-align: center;
     padding: 0 20px;
 }
-#values .value-text h2{
+
+#values .value-text h2 {
     font-size: 50px;
     color: rgb(238, 81, 8);
 }
-#values .value-text p{
+
+#values .value-text p {
     line-height: 2;
     font-size: 20px;
 }
 
 /* -----------------offer---------------------------- */
-#offer{
+#offer {
     margin: 50px 20px;
 }
-#offer h2{
+
+#offer h2 {
     font-size: 50px;
     color: rgb(238, 81, 8);
     text-align: center;
 }
-#offer .offer-container{
+
+#offer .offer-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
     margin: 25px auto;
 }
-#offer .offer-container .offer-item{
+
+#offer .offer-container .offer-item {
     width: 500px;
     height: 100px;
     padding: 20px 10px;
@@ -193,88 +224,100 @@ nav{
     background-color: rgb(245, 238, 235);
     border-radius: 10px;
 }
-#offer .offer-container .offer-item h3{
+
+#offer .offer-container .offer-item h3 {
     font-size: 20px;
     color: rgb(197, 120, 85);
     margin-bottom: 10px;
 }
-#offer .offer-container .offer-item p{
+
+#offer .offer-container .offer-item p {
     font-size: 16px;
     line-height: 1.5;
 }
 
 /* -------------------courses------------------------------ */
-#course{
+#course {
     margin: 50px 20px;
 }
-#course h2{
+
+#course h2 {
     text-align: center;
     font-size: 50px;
     color: rgb(238, 81, 8);
     margin: 20px 0;
 }
-#course .course-container{
+
+#course .course-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
     margin: 25px auto;
 }
-#course .course-container .course-item{
+
+#course .course-container .course-item {
     margin: 10px;
     width: 445px;
     height: 415px;
     border-radius: 10px;
     background-color: rgb(245, 238, 235);
 }
+
 /* #course .course-container .course-item .course-image{
    
 } */
-#course .course-container .course-item .course-image img{
+#course .course-container .course-item .course-image img {
     width: 100%;
     height: 250px;
 }
-#course .course-container .course-item .course-text{
+
+#course .course-container .course-item .course-text {
     padding: 5px 10px;
 }
-#course .course-container .course-item .course-text h3{
+
+#course .course-container .course-item .course-text h3 {
     font-size: 20px;
     color: rgb(197, 120, 85);
     margin-bottom: 10px;
 }
-#course .course-container .course-item .course-text p{
+
+#course .course-container .course-item .course-text p {
     font-size: 16px;
     line-height: 1.5;
 }
 
 /* ===================extracurriculars======================== */
-#extracurriculars{
+#extracurriculars {
     margin: 50px 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-#extracurriculars .extracurricular-info{
-    
-}
-#extracurriculars .extracurricular-info h2{
+
+#extracurriculars .extracurricular-info {}
+
+#extracurriculars .extracurricular-info h2 {
     font-size: 50px;
     color: rgb(238, 81, 8);
     text-align: left;
 }
-#extracurriculars .extracurricular-info p{
+
+#extracurriculars .extracurricular-info p {
     font-size: 20px;
     line-height: 1.5;
     margin-top: 10px;
 }
-#extracurriculars .extracurricular-container{
+
+#extracurriculars .extracurricular-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
     margin: 25px auto;
 }
-#extracurriculars .extracurricular-container .extracurricular-item{
+
+#extracurriculars .extracurricular-container .extracurricular-item {
     position: relative;
     margin: 20px;
     width: 70%;
@@ -282,17 +325,20 @@ nav{
     /* transition: all 0.5s ease; */
 
 }
-#extracurriculars .extracurricular-container .extracurricular-item img{
+
+#extracurriculars .extracurricular-container .extracurricular-item img {
     width: 100%;
     height: auto;
     border-radius: 15px;
 }
-#extracurriculars .extracurricular-container .extracurricular-item h3{
+
+#extracurriculars .extracurricular-container .extracurricular-item h3 {
     font-size: 20px;
     color: rgba(233, 71, 71, 0.7);
     margin-top: 5px;
 }
-#extracurriculars .extracurricular-container .extracurricular-item .layer{
+
+#extracurriculars .extracurricular-container .extracurricular-item .layer {
     position: absolute;
     top: 1px;
     width: 94%;
@@ -307,7 +353,8 @@ nav{
     /* transition: all 0.5s ease; */
 
 }
-#extracurriculars .extracurricular-container .extracurricular-item:hover .layer{
+
+#extracurriculars .extracurricular-container .extracurricular-item:hover .layer {
     display: block;
     /* transition: all 0.5s ease; */
 }
@@ -318,18 +365,21 @@ nav{
     background-color: rgba(245, 238, 235, 0.8);
     padding: 50px 20px;
 }
+
 #facilities h2 {
     text-align: center;
     font-size: 50px;
     color: rgb(238, 81, 8);
     margin-bottom: 30px;
 }
+
 #facilities .facility-container {
     display: flex;
     /* flex-wrap: wrap; */
     justify-content: space-between;
     align-items: center;
 }
+
 #facilities .facility-item {
     /* width: 300px;
     height: 300px; */
@@ -341,19 +391,23 @@ nav{
     padding: 20px;
     transition: transform 0.3s ease;
 }
+
 #facilities .facility-item:hover {
     transform: scale(1.1);
 }
-#facilities .facility-item img{
+
+#facilities .facility-item img {
     width: 100%;
     border-radius: 20px;
 }
+
 #facilities .facility-item p {
     font-size: 20px;
     color: #333;
     line-height: 1.5;
 }
-#facilities .facility-item p.detail{
+
+#facilities .facility-item p.detail {
     font-size: 20px;
     color: #333;
     text-align: center;
@@ -366,17 +420,20 @@ nav{
     background-color: rgba(238, 81, 8, 0.7);
     text-align: center;
 }
+
 #technologies h2 {
     font-size: 50px;
     color: #fff;
     margin-bottom: 30px;
 }
+
 #technologies .tech-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
 }
+
 #technologies .tech-item {
     margin: 20px;
     width: 150px;
@@ -389,9 +446,11 @@ nav{
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease;
 }
+
 #technologies .tech-item:hover {
     transform: scale(1.2);
 }
+
 #technologies .tech-item img {
     width: 80%;
     height: auto;
@@ -403,17 +462,20 @@ nav{
     margin: 50px 20px;
     text-align: center;
 }
+
 #testimonials h2 {
     font-size: 50px;
     color: rgb(238, 81, 8);
     margin-bottom: 30px;
 }
+
 #testimonials .testimonial-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
 }
+
 #testimonials .testimonial-item {
     width: 400px;
     height: 150px;
@@ -425,22 +487,26 @@ nav{
     text-align: left;
     position: relative;
 }
+
 #testimonials .testimonial-item p {
     font-size: 16px;
     line-height: 1.5;
     color: #333;
 }
-#testimonials .testimonial-item p i{
+
+#testimonials .testimonial-item p i {
     color: rgb(197, 120, 85);
     font-size: 20px;
     margin: 15px 10px;
 }
+
 #testimonials .testimonial-item cite {
     margin-top: 10px;
     font-size: 20px;
     color: rgb(197, 120, 85);
 }
-#testimonials .testimonial-item .testi-image{
+
+#testimonials .testimonial-item .testi-image {
     border-radius: 50%;
     height: 70px;
     width: 70px;
@@ -451,10 +517,12 @@ nav{
     right: 10px;
     transition: 0.3s ease-in-out all;
 }
-#testimonials .testimonial-item .testi-image:hover{
+
+#testimonials .testimonial-item .testi-image:hover {
     transform: scale(1.2);
 }
-#testimonials .testimonial-item .testi-image img{
+
+#testimonials .testimonial-item .testi-image img {
     border-radius: 50%;
     width: 95%;
     height: 95%;
@@ -469,27 +537,48 @@ footer {
     padding: 30px 10px 0;
     margin-top: 50px;
 }
-footer .footer-info{
+
+footer .footer-info {
     display: flex;
     justify-content: space-between;
 }
-footer .footer-info .about{
+
+footer .footer-info .about {
     width: 50%;
 
 }
-footer .footer-info .about h3{
+
+footer .footer-info .about h3 {
     font-size: 25px;
     color: #fff;
     margin-bottom: 10px;
 }
-footer .footer-info .about p{
+
+footer .footer-info .about p {
     font-size: 16px;
     color: #fff;
     line-height: 1.5;
     margin-bottom: 30px;
 }
-footer .footer-info .contact{
-    
+
+footer .footer-info .contact {}
+
+footer .footer-info .contact h3 {
+    font-size: 25px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+footer .footer-info .contact .contact-link {}
+
+footer .footer-info .contact .contact-link i{
+    margin: 10px 10px 10px 0;
+    font-size: 25px;
+}
+footer .footer-info .contact .contact-link a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
 }
 
 /* footer p {
