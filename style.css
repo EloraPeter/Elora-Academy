@@ -49,7 +49,8 @@ nav {
     height: 100vh;
     padding: 20% auto;
     position: relative;
-    background: linear-gradient(rgba(233, 71, 71, 0.7), rgba(122, 11, 11, 0.4)), url(images/hero.webp);
+    background: linear-gradient(rgba(233, 71, 71, 0.7), rgba(122, 11, 11, 0.4)),
+        url(images/hero.webp);
 }
 
 .hero .hero-title {
@@ -323,7 +324,6 @@ nav {
     width: 70%;
     height: auto;
     /* transition: all 0.5s ease; */
-
 }
 
 #extracurriculars .extracurricular-container .extracurricular-item img {
@@ -351,7 +351,6 @@ nav {
     line-height: 1.5;
     display: none;
     /* transition: all 0.5s ease; */
-
 }
 
 #extracurriculars .extracurricular-container .extracurricular-item:hover .layer {
@@ -533,8 +532,7 @@ nav {
 footer {
     background-color: rgb(238, 81, 8);
     color: #fff;
-    /* text-align: center; */
-    padding: 30px 10px 0;
+    padding: 30px 40px;
     margin-top: 50px;
 }
 
@@ -545,7 +543,6 @@ footer .footer-info {
 
 footer .footer-info .about {
     width: 50%;
-
 }
 
 footer .footer-info .about h3 {
@@ -571,43 +568,80 @@ footer .footer-info .contact h3 {
 
 footer .footer-info .contact .contact-link {}
 
-footer .footer-info .contact .contact-link i{
+footer .footer-info .contact .contact-link i {
     margin: 10px 10px 10px 0;
     font-size: 25px;
 }
-footer .footer-info .contact .contact-link a{
+
+footer .footer-info .contact .contact-link a {
     color: #fff;
     text-decoration: none;
     font-size: 18px;
 }
-footer .footer-info .contact .contact-link a:hover{
+
+footer .footer-info .contact .contact-link a:hover {
     text-decoration: underline 2px solid;
     color: rgb(219, 166, 141);
 }
-footer .footer-info .socials{
 
-}
+footer .footer-info .socials {}
+
 footer .footer-info .socials h3 {
-    font-size: 25px;
+    font-size: 22px;
     color: #fff;
     margin-bottom: 10px;
 }
+
 footer .footer-info .socials .social-link {
     list-style: none;
 }
-footer .footer-info .socials .social-link li{
 
-}
-footer .footer-info .socials .social-link li i{
+footer .footer-info .socials .social-link li {}
+
+footer .footer-info .socials .social-link li i {
     margin: 5px 10px 5px 0;
     font-size: 25px;
 }
-footer .footer-info .socials .social-link li a{
+
+footer .footer-info .socials .social-link li a {
     font-size: 18px;
     color: #fff;
     text-decoration: none;
 }
-footer .footer-info .socials .social-link li a:hover{
+
+footer .footer-info .socials .social-link li a:hover {
     text-decoration: underline 2px solid;
     color: rgb(219, 166, 141);
+}
+
+footer .footer-info .terms h3 {
+    font-size: 22px;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+footer .footer-info .terms {}
+
+footer .footer-info .terms ul {
+    list-style: none;
+}
+
+footer .footer-info .terms ul li {
+    margin-bottom: 5px;
+}
+
+footer .footer-info .terms ul li a {
+    font-size: 18px;
+    color: #fff;
+    text-decoration: none;
+}
+
+footer .footer-info .terms ul li a:hover {
+    text-decoration: underline 2px solid;
+    color: rgb(219, 166, 141);
+}
+
+footer .footer-info .copyright {
+    color: #fff;
+    font-size: 14px;
 }
