@@ -327,14 +327,14 @@ nav{
 }
 #facilities .facility-container {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+    /* flex-wrap: wrap; */
+    justify-content: space-between;
     align-items: center;
 }
 #facilities .facility-item {
     width: 300px;
     height: 300px;
-    margin: 20px;
+    /* margin: 20px; */
     text-align: center;
     background-color: #fff;
     border-radius: 20px;
@@ -344,11 +344,6 @@ nav{
 }
 #facilities .facility-item:hover {
     transform: scale(1.1);
-}
-#facilities .facility-item h3 {
-    color: rgb(197, 120, 85);
-    font-size: 24px;
-    margin-bottom: 10px;
 }
 #facilities .facility-item p {
     font-size: 16px;
