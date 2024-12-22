@@ -433,7 +433,13 @@ nav{
     font-size: 20px;
     color: rgb(197, 120, 85);
 }
-#testimonials .testimonial-item .testi-
+#testimonials .testimonial-item .testi-image{
+    border-radius: 50%;
+}
+#testimonials .testimonial-item .testi-image img{
+    
+}
+
 
 /* ----------------------footer------------------------------- */
 footer {
