@@ -595,3 +595,15 @@ footer .footer-info .socials h3 {
 footer .footer-info .socials .social-link {
     list-style: none;
 }
+footer .footer-info .socials .social-link li{
+    
+}
+footer .footer-info .socials .social-link li i{
+    margin-right: 10px;
+    font-size: 25px;
+}
+footer .footer-info .socials .social-link li a{
+    margin: 10px;
+    font-size: 18px;
+    color: #fff;
+}
