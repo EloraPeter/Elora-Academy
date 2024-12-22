@@ -428,11 +428,12 @@ nav{
     line-height: 1.5;
     color: #333;
 }
-#testimonials .testimonial-item h3 {
+#testimonials .testimonial-item cite {
     margin-top: 10px;
     font-size: 20px;
     color: rgb(197, 120, 85);
 }
+#testimonials .testimonial-item .testi-
 
 /* ----------------------footer------------------------------- */
 footer {
