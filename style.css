@@ -829,3 +829,48 @@ footer .copyright #designer a:hover {
     width: 70%;
     margin: 0 auto;
 }
+
+/* ----------------what we offer------------------------------- */
+
+#what-we-offer {
+    background-image: url('offer-bg.jpg');
+    background-size: cover;
+    padding: 20px;
+}
+
+.wwo {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.wwo h1 {
+    font-family: Arial, sans-serif;
+}
+
+.wwo p {
+    font-family: Georgia, serif;
+}
+
+.wwo h2 {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.wwo.flex {
+    display: flex;
+    justify-content: space-around;
+}
+
+.wwo.flex > div {
+    flex: 1;
+    padding: 10px;
+}
+
+.testi-wwo {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.testimonial {
+    margin: 0 auto;
+    width: 50%;
+}
