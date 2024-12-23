@@ -856,7 +856,7 @@ footer .copyright #designer a:hover {
     font-family: "Courier New", Courier, monospace;
 }
 
-.wwo.flex {
+.wwo-container.flex {
     display: flex;
     justify-content: space-around;
 }
