@@ -247,12 +247,15 @@
             </div>
             <div class="extracurricular-container">
                 <div class="extracurricular-item">
-                    <img src="images/basketball court.jpg" alt="Basketball court" class="activity-img" />
+                    <div class="extracurricular-image">
+                        <img src="images/basketball court.jpg" alt="Basketball court" class="activity-img" />
+                        <p class="layer">
+                            Engage in sports such as basketball, volleyball, and soccer for
+                            physical fitness and teamwork.
+                        </p>
+                    </div>
                     <h3>Sports</h3>
-                    <p class="layer">
-                        Engage in sports such as basketball, volleyball, and soccer for
-                        physical fitness and teamwork.
-                    </p>
+                    
                 </div>
                 <div class="extracurricular-item">
                     <img src="images/library.jpg" alt="Library" class="activity-img" />
@@ -294,19 +297,17 @@
                 </div>
             </div>
         </section>
-
         <section id="technologies">
             <h2>Technologies We Teach</h2>
             <p>
                 For advanced students, we offer training in the latest technologies,
                 including:
             </p>
-            <ul class>
+            <ul class="tech-list">
                 <li>Programming Languages: Python, JavaScript, Java, and C++.</li>
                 <li>Web Development: HTML, CSS, React, Angular, and Node.js.</li>
                 <li>Data Science & AI: TensorFlow, NumPy, and Pandas.</li>
-                <li>
-                    Cybersecurity: Ethical hacking tools and secure coding practices.</li>
+                <li>Cybersecurity: Ethical hacking tools and secure coding practices.</li>
                 <li>Design Tools: Figma, Adobe XD, and Sketch for UI/UX design.</li>
                 <li>Development Tools: Git, GitHub, Docker, and CI/CD pipelines.</li>
                 <li>Mobile App Development: React Native and Flutter.</li>
@@ -360,7 +361,14 @@
         </section>
     </main>
     <footer>
-        <section id="newsletter"></section>
+        <section id="newsletter">
+            <h2>Subscribe to Our Newsletter</h2>
+            <p>Get the latest updates, career tips, and events straight to your inbox.</p>
+            <form action="#" method="POST">
+                <input type="email" name="email" placeholder="Enter your email address" required />
+                <input type="submit" value="Subscribe" />
+            </form>
+        </section>
         <div class="footer-info">
             <div class="about">
                 <h3>About Elora Tech Academy</h3>

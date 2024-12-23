@@ -51,7 +51,7 @@ nav {
     position: relative;
     background: linear-gradient(rgba(238, 81, 8, 0.6), rgba(122, 11, 11, 0.4)),
         url(images/DALL·E\ 2024-12-22\ 21.53.04\ -\ A\ vibrant\ scene\ of\ students\ using\ their\ laptops\ in\ a\ modern\ school\ setting.\ The\ classroom\ is\ bright\ and\ filled\ with\ natural\ lig.webp)
-    }
+}
 
 .hero .hero-title {
     margin-top: 5%;
@@ -261,9 +261,6 @@ nav {
     background-color: rgb(245, 238, 235);
 }
 
-/* #course .course-container .course-item .course-image{
-   
-} */
 #course .course-container .course-item .course-image img {
     width: 100%;
     height: 250px;
@@ -287,9 +284,9 @@ nav {
 /* ===================extracurriculars======================== */
 #extracurriculars {
     margin: 50px 20px;
-    display: flex;
+    /* display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: center; */
 }
 
 #extracurriculars .extracurricular-info {}
@@ -309,22 +306,21 @@ nav {
 #extracurriculars .extracurricular-container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     margin: 25px auto;
 }
 
 #extracurriculars .extracurricular-container .extracurricular-item {
-    position: relative;
-    margin: 20px;
-    width: 70%;
-    height: auto;
-    /* transition: all 0.5s ease; */
+    /* position: relative; */
+    /* margin: 20px; */
+    width: 30%;
+    height: 400px;
 }
 
 #extracurriculars .extracurricular-container .extracurricular-item img {
     width: 100%;
-    height: auto;
+    height: 300px;
     border-radius: 15px;
 }
 
@@ -333,12 +329,18 @@ nav {
     color: rgba(233, 71, 71, 0.7);
     margin-top: 5px;
 }
+#extracurriculars .extracurricular-container .extracurricular-item .extracurricular-image{
+    position: relative;
+    /* z-index: 1; */
+    width: 100%;
+    height: 300px;
+}
 
 #extracurriculars .extracurricular-container .extracurricular-item .layer {
     position: absolute;
     top: 1px;
-    width: 94%;
-    height: 77%;
+    width: 100%;
+    height: 100%;
     background-color: rgba(99, 35, 6, 0.61);
     border-radius: 15px;
     padding: 10px 10px;
@@ -346,12 +348,11 @@ nav {
     font-size: 18px;
     line-height: 1.5;
     display: none;
-    /* transition: all 0.5s ease; */
+    /* bottom: 0; */
 }
 
 #extracurriculars .extracurricular-container .extracurricular-item:hover .layer {
     display: block;
-    /* transition: all 0.5s ease; */
 }
 
 /* ----------------------facilities---------------------------- */
@@ -370,19 +371,12 @@ nav {
 
 #facilities .facility-container {
     display: flex;
-    /* flex-wrap: wrap; */
     justify-content: space-between;
     align-items: center;
 }
 
 #facilities .facility-item {
-    /* width: 300px;
-    height: 300px; */
     margin: 0 30px;
-    /* text-align: center; */
-    /* background-color: #fff; */
-    /* border-radius: 20px; */
-    /* box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); */
     padding: 20px;
     transition: transform 0.3s ease;
 }
@@ -409,47 +403,40 @@ nav {
 }
 
 /* ---------------technologies-------------------------------------- */
-#technologies {
-    /* margin: 50px 20px; */
+#technologies { 
     padding: 50px 20px;
     background-color: rgba(238, 81, 8, 0.7);
-    /* text-align: center; */
 }
 
 #technologies h2 {
     font-size: 50px;
     color: #fff;
-    margin-bottom: 30px;
+    text-align: center;
 }
 
-#technologies .tech-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
+#technologies p {
+    color: #f1f1f1;
+    font-size: 25px;
+    margin-bottom: 20px;
+    text-align: center;
 }
 
-#technologies .tech-item {
-    margin: 20px;
-    width: 150px;
-    height: 150px;
-    background-color: #fff;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease;
-}
+#technologies .tech-list{
+    
+} 
 
-#technologies .tech-item:hover {
-    transform: scale(1.2);
+#technologies .tech-list li {
+    list-style: none;
+    margin: 5px 55px;
+    padding: 20px;
+    color: #fff;
+    background-color: #333;
+    border-radius: 5px;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
 }
-
-#technologies .tech-item img {
-    width: 80%;
-    height: auto;
-    border-radius: 50%;
+#technologies .tech-list li:hover {
+    transform: scale(1.1);
 }
 
 /* ----------------------testimonials--------------------------- */
@@ -637,26 +624,30 @@ footer .footer-info .terms ul li a:hover {
     text-decoration: underline 2px solid;
     color: rgb(219, 166, 141);
 }
-hr{
+
+hr {
     margin: 30px 0;
     border: none;
     border-top: 1px solid #a8a8a8;
 }
 
-footer .copyright{
+footer .copyright {
     color: #e8e8e8;
     font-size: 14px;
     text-align: center;
 }
-footer .copyright #designer{
+
+footer .copyright #designer {
     font-size: 10px;
     color: #a8a8a8;
 }
-footer .copyright #designer a{
+
+footer .copyright #designer a {
     color: rgba(122, 11, 11, 0.4);
     text-decoration: none;
 }
-footer .copyright #designer a:hover{
+
+footer .copyright #designer a:hover {
     color: rgb(197, 120, 85);
     text-decoration: 1px solid;
 }
