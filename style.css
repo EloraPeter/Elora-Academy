@@ -709,17 +709,18 @@ footer .copyright #designer a:hover {
 /* About Hero Section */
 .about-hero {
     background: linear-gradient(rgba(238, 81, 8, 0.8), rgba(0, 0, 0, 0.5)), 
-        url('path/to/hero-image.jpg');
+        url('images/advanced\ building.jpg');
     background-size: cover;
     background-position: center;
     color: white;
     text-align: center;
-    padding: 100px 20px;
+    padding: 10px 20px;
+    height: 100vh;
 }
 
 .about-hero h1 {
     font-size: 50px;
-    margin-bottom: 20px;
+    margin: 20px 0;
 }
 
 .about-hero p {
