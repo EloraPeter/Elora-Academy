@@ -11,11 +11,19 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 20px;
+    padding: 5px 20px;
+    background-color: #3333331a;
+    position: sticky;
+    top: 0;
+    transition: transform 0.3s ease-in-out;
+    transform: translateY(0);
+    z-index: 10;
 }
-
+nav.hidden {
+    transform: translateY(-100%);
+}
 #logo {
-    width: 120px;
+    width: 60px;
     height: auto;
     border-radius: 50%;
 }
