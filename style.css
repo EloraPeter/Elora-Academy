@@ -128,6 +128,78 @@ nav {
     margin: 0 auto;
 }
 
+/* ------------------events------------------ */
+
+#latest-news {
+    margin: 2rem auto;
+    padding: 1.5rem;
+    max-width: 800px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+#latest-news h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    color: #fe8343; /* Accent color */
+}
+#latest-news ul {
+    list-style: none;
+    padding: 0;
+}
+#latest-news ul li {
+    margin-bottom: 0.8rem;
+}
+#latest-news ul li a {
+    text-decoration: none;
+    color: #d86121;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+#latest-news ul li a:hover {
+    color: #290101;
+}
+
+/* ------------------------------------------- */
+#events {
+    margin: 2rem auto;
+    padding: 1.5rem;
+    max-width: 800px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+#events h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    color: #fe8343; /* Accent color */
+}
+#events .events {
+    display: grid;
+    gap: 1.5rem;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+#events .event {
+    padding: 1.5rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fefefe;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+#events .event h3 {
+    font-size: 1.4rem;
+    margin-bottom: 0.5rem;
+    color: #333;
+}
+#events .event p {
+    margin: 0;
+    color: #666;
+}
+#events .event:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
 /* -------------------mission------------------- */
 #mission {
     margin-top: 200px;
