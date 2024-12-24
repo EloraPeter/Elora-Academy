@@ -42,6 +42,7 @@
             </div>
         </div>
     </header>
+
     <main>
         <section id="about">
             <div class="about-container">
@@ -77,17 +78,21 @@
         </section>
         <div class="mission-vision parallax">
             <h2>Our Mission &amp; Vision</h2>
-            <p>Our mission is to create a welcoming and inclusive learning environment where students feel comfortable,
-                supported, and inspired to pursue their passions in technology. We aim to foster a vibrant community of
-                learners and innovators by providing opportunities for personal growth, skill development, and
-                meaningful collaboration. Our goal is to empower individuals to excel in the tech industry through
-                cutting-edge education, hands-on practical training, and a nurturing community that values diversity and
-                creativity.
-
-                Our vision is to become the foremost tech academy globally recognized for its excellence in education,
-                innovation, and impact. We aspire to lead the way in producing highly skilled professionals who drive
-                technological advancements, foster groundbreaking solutions, and contribute to a better world through
-                their expertise and dedication.</p>
+            <p>
+                Our mission is to create a welcoming and inclusive learning
+                environment where students feel comfortable, supported, and inspired
+                to pursue their passions in technology. We aim to foster a vibrant
+                community of learners and innovators by providing opportunities for
+                personal growth, skill development, and meaningful collaboration. Our
+                goal is to empower individuals to excel in the tech industry through
+                cutting-edge education, hands-on practical training, and a nurturing
+                community that values diversity and creativity. Our vision is to
+                become the foremost tech academy globally recognized for its
+                excellence in education, innovation, and impact. We aspire to lead the
+                way in producing highly skilled professionals who drive technological
+                advancements, foster groundbreaking solutions, and contribute to a
+                better world through their expertise and dedication.
+            </p>
         </div>
         <section id="offer">
             <h2>What We Offer</h2>
@@ -428,6 +433,7 @@
             <!-- <a href="#" class="btn">View All Testimonials</a> -->
         </section>
     </main>
+
     <footer>
         <div class="newsletter">
             <h2>Subscribe to Our Newsletter</h2>

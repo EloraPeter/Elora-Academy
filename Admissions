@@ -28,6 +28,7 @@
             <p>Designed for beginners and advanced learners alike.</p>
         </div>
     </header>
+
     <main>
         <section class="container" id="admissions">
             <h1>Admissions</h1>
@@ -36,6 +37,7 @@
                 tech.</p>
         </section>
     </main>
+    
     <footer>
         <div class="newsletter">
             <h2>Subscribe to Our Newsletter</h2>

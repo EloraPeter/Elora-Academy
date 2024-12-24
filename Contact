@@ -24,6 +24,7 @@
             </ul>
         </nav>
     </header>
+
     <main>
         <section id="contact">
             <h2>Our Location</h2>
@@ -50,6 +51,7 @@
             </div>
         </section>
     </main>
+    
     <footer>
         <div class="newsletter">
             <h2>Subscribe to Our Newsletter</h2>

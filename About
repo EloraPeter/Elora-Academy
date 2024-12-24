@@ -30,6 +30,7 @@
                 creativity, and drive meaningful impact in the ever-evolving world of technology.</p>
         </div>
     </header>
+
     <main>
         <section id="about-us">
             <div class="story">
@@ -112,6 +113,7 @@
             </section>
         </section>
     </main>
+    
     <footer>
         <div class="newsletter">
             <h2>Subscribe to Our Newsletter</h2>
