@@ -7,8 +7,8 @@
     <title>Elora Tech Academy</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
-    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
@@ -25,62 +25,65 @@
                 </ul>
             </nav>
 
-            
-          
-            <h1>Academics</h1>
-            <h2>Comprehensive Courses</h2>
-            <p>
-                Explore our tailored programs and services designed to empower tech
-                enthusiasts.
-            </p>
-            <p>Our courses include Computer Science, Cybersecurity, Web Development, Data Science, UI/UX Design, and more.</p>
-            <h2>Faculty</h2>
-            <ul>
-                <li><b>John Doe:</b> Expert in AI and Machine Learning</li>
-                <li><b>Jane Smith:</b> Senior Web Developer with 10+ years of experience</li>
-            </ul>
+            <div class="hero-text">
+                <h1>Academics</h1>
+                <h2>Comprehensive Courses</h2>
+                <p>
+                    Explore our tailored programs and services designed to empower tech
+                    enthusiasts.
+                </p>
+                <p>Our courses include Computer Science, Cybersecurity, Web Development, Data Science, UI/UX Design, and
+                    more.</p>
+                <h2>Faculty</h2>
+                <ul>
+                    <li><b>John Doe:</b> Expert in AI and Machine Learning</li>
+                    <li><b>Jane Smith:</b> Senior Web Developer with 10+ years of experience</li>
+                </ul>
+            </div>
         </div>
     </header>
-    <section id="what-we-offer">
-        <div class="wwo">
-            <h2>Tech Training</h2>
-            <p>Hands-on training in web development, programming, and more.</p>
-        </div>
-        <div class="wwo-container flex">
-            <div class="wwo-item">
-                <h3>Mentorship</h3>
-                <p>Personalized guidance to achieve your career goals.</p>
+    <main>
+        <section id="what-we-offer">
+            <div class="wwo">
+                <h2>Tech Training</h2>
+                <p>Hands-on training in web development, programming, and more.</p>
             </div>
-            <div  class="wwo-item">
-                <h3>Flexible Learning</h3>
-                <p>Study online or in person with a schedule that works for you.</p>
-            </div>
+            <div class="wwo-container flex">
+                <div class="wwo-item">
+                    <h3>Mentorship</h3>
+                    <p>Personalized guidance to achieve your career goals.</p>
+                </div>
+                <div class="wwo-item">
+                    <h3>Flexible Learning</h3>
+                    <p>Study online or in person with a schedule that works for you.</p>
+                </div>
 
-        </div>
-        <div class="testi-wwo">
-            <h2>Student Testimonials</h2>
-            <div class="testimonial">
-                <p>"Elora Tech Academy changed my life!" - Sarah K.</p>
             </div>
-        </div>
-    </section>
-    <section id="courses">
-       
-        <div class="section grid">
-            <div class="course">
-                <h3>Beginner HTML&amp; CSS</h3>
-                <p>Start your journey into web development.</p>
+            <div class="testi-wwo">
+                <h2>Student Testimonials</h2>
+                <div class="testimonial">
+                    <p>"Elora Tech Academy changed my life!" - Sarah K.</p>
+                </div>
             </div>
-            <div class="course">
-                <h3>Advanced JavaScript</h3>
-                <p>Master JavaScript and build dynamic websites.</p>
+        </section>
+        <section id="courses">
+
+            <div class="section grid">
+                <div class="course">
+                    <h3>Beginner HTML&amp; CSS</h3>
+                    <p>Start your journey into web development.</p>
+                </div>
+                <div class="course">
+                    <h3>Advanced JavaScript</h3>
+                    <p>Master JavaScript and build dynamic websites.</p>
+                </div>
+                <div class="course">
+                    <h3>Specialized Tracks</h3>
+                    <p>Focus on AI, Cybersecurity, and more.</p>
+                </div>
             </div>
-            <div class="course">
-                <h3>Specialized Tracks</h3>
-                <p>Focus on AI, Cybersecurity, and more.</p>
-            </div>
-        </div>
-    </section>
+        </section>
+    </main>
     <footer>
         <div class="newsletter">
             <h2>Subscribe to Our Newsletter</h2>
