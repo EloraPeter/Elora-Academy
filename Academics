@@ -25,11 +25,20 @@
                 </ul>
             </nav>
 
-            <h1>What We Offer</h1>
+            
+          
+            <h1>Academics</h1>
+            <h2>Comprehensive Courses</h2>
             <p>
                 Explore our tailored programs and services designed to empower tech
                 enthusiasts.
             </p>
+            <p>Our courses include Computer Science, Cybersecurity, Web Development, Data Science, UI/UX Design, and more.</p>
+            <h2>Faculty</h2>
+            <ul>
+                <li><b>John Doe:</b> Expert in AI and Machine Learning</li>
+                <li><b>Jane Smith:</b> Senior Web Developer with 10+ years of experience</li>
+            </ul>
         </div>
     </header>
     <section id="what-we-offer">
@@ -52,6 +61,23 @@
             <h2>Student Testimonials</h2>
             <div class="testimonial">
                 <p>"Elora Tech Academy changed my life!" - Sarah K.</p>
+            </div>
+        </div>
+    </section>
+    <section id="courses">
+       
+        <div class="section grid">
+            <div class="course">
+                <h3>Beginner HTML&amp; CSS</h3>
+                <p>Start your journey into web development.</p>
+            </div>
+            <div class="course">
+                <h3>Advanced JavaScript</h3>
+                <p>Master JavaScript and build dynamic websites.</p>
+            </div>
+            <div class="course">
+                <h3>Specialized Tracks</h3>
+                <p>Focus on AI, Cybersecurity, and more.</p>
             </div>
         </div>
     </section>

@@ -25,6 +25,12 @@
         </nav>
     </header>
     <section id="contact">
+        <h2>Our Location</h2>
+        <p>123 Tech Lane, Innovation City</p>
+        <h2>Contact Information</h2>
+        <p>Email: <a href="mailto:info@eloraacademy.com">info@eloraacademy.com</a></p>
+        <p>Phone: +123 456 7890</p>
+        <h2>Get in Touch</h2>
         <div class="section">
             <h1>Contact Us</h1>
             <form>

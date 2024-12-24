@@ -28,22 +28,10 @@
             <p>Designed for beginners and advanced learners alike.</p>
         </div>
     </header>
-    <section id="courses">
-       
-        <div class="section grid">
-            <div class="course">
-                <h3>Beginner HTML&amp; CSS</h3>
-                <p>Start your journey into web development.</p>
-            </div>
-            <div class="course">
-                <h3>Advanced JavaScript</h3>
-                <p>Master JavaScript and build dynamic websites.</p>
-            </div>
-            <div class="course">
-                <h3>Specialized Tracks</h3>
-                <p>Focus on AI, Cybersecurity, and more.</p>
-            </div>
-        </div>
+    <section class="container" id="admissions">
+        <h1>Admissions</h1>
+        <h2>How to Enroll</h2>
+        <p>Visit our admissions office or apply online. Requirements include academic transcripts and a passion for tech.</p>
     </section>
     <footer>
         <div class="newsletter">
