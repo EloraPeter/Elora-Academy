@@ -54,7 +54,7 @@
                 </p>
             </div>
         </section>
-        <section class="container" id="latest-news">
+        <section id="latest-news">
             <h2>Latest News</h2>
             <ul>
                 <li><a href="#">ETA launches new AI courses</a></li>
@@ -62,7 +62,7 @@
                 <li><a href="#">Scholarship Opportunities for 2025</a></li>
             </ul>
         </section>
-        <section class="container" id="events">
+        <section id="events">
             <h2>Upcoming Events</h2>
             <div class="events">
                 <div class="event">
