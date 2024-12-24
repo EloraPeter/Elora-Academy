@@ -128,10 +128,9 @@ nav {
     margin: 0 auto;
 }
 
-/* ------------------events------------------ */
-
+/* ------------------latest news------------------ */
 #latest-news {
-    margin: 2rem auto;
+    margin: 10rem auto 2rem;
     padding: 1.5rem;
     max-width: 800px;
     background-color: #fff;
@@ -160,7 +159,7 @@ nav {
     color: #290101;
 }
 
-/* ------------------------------------------- */
+/* --------------events----------------------------- */
 #events {
     margin: 2rem auto;
     padding: 1.5rem;
