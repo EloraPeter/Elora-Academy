@@ -1209,13 +1209,8 @@ h2.contact-subheading{
 #contact-section {
     padding: 60px 60px;
     background: linear-gradient(to bottom, #ffffff, #f7b38f);
-    /* border-radius: 15px; */
-    /* box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15); */
-   
-    /* max-width: 80%; */
     margin: 0 auto;
     position: relative;
-    /* top: -70px; */
 }
 
 .contact-content {
