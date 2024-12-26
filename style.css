@@ -1237,7 +1237,8 @@ footer .copyright #designer a:hover {
     }
     #about {
       width: 90%;
-      left: 5%;
+      left: 4%;
+      padding: 10px;
     }
     .mission-vision h2 {
       font-size: 30px;
