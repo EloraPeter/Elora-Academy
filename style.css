@@ -1123,18 +1123,87 @@ footer .copyright #designer a:hover {
 
 /* --------------------------------admissions page-------------------------------------- */
 .admission-hero {
-    background: linear-gradient(to bottom, rgba(119, 43, 1, 0.8), rgba(94, 24, 3, 0.8)), 
-                url('images/hallway.jpeg'); 
+    background: linear-gradient(to bottom, rgba(119, 43, 1, 0.8), rgba(94, 24, 3, 0.8)),
+        url('images/hallway.jpeg');
     background-blend-mode: overlay;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 80vh;
+    height: 70vh;
     text-align: center;
     padding: 60px 0;
-    color: #fff; 
+    color: #fff;
     position: relative;
     top: -70px;
 }
 
+#admissions {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
 
+#admissions h2 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+    color: #ff5722;
+    text-align: center;
+    border-bottom: 2px solid #ff5722;
+    padding-bottom: 5px;
+    display: inline-block;
+}
+
+#admissions p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+#admissions ol,
+#admissions ul {
+    padding-left: 40px;
+    margin-bottom: 20px;
+}
+
+#admissions ol li,
+#admissions ul li {
+    margin-bottom: 10px;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+#admissions ul li::marker {
+    color: #ff5722;
+}
+
+#admissions ol li a,
+#admissions ul li a {
+    color: #ff5722;
+    text-decoration: none;
+}
+
+#admissions ol li a:hover,
+#admissions ul li a:hover {
+    text-decoration: underline;
+}
+
+#admissions ul li b {
+    color: #333;
+}
+
+#admissions p:last-child {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 1rem;
+}
+
+#admissions p a {
+    color: #ff5722;
+    font-weight: bold;
+}
+
+#admissions p a:hover {
+    text-decoration: underline;
+}
