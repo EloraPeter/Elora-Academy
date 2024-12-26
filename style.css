@@ -73,10 +73,10 @@ nav.hidden {
     padding-top: 5%;
 }
 
-h1 {
+.hero-title h1 {
     font-size: 100px;
     text-align: center;
-    margin: 10px 0;
+    margin: 15px 0;
     color: #fff;
 }
 
@@ -84,7 +84,7 @@ h2 {
     font-size: 60px;
     text-align: center;
     margin: 10px 0;
-    color: #ffffd9;
+    color: #ffffff;
 }
 
 .hero-title p {
@@ -93,7 +93,7 @@ h2 {
     line-height: 2;
     margin: 10px auto 30px;
     text-align: center;
-    color: #ffffd1;
+    color: #eee ;
 }
 
 .cta-btn {
@@ -102,6 +102,7 @@ h2 {
     color: white;
     text-decoration: none;
     border-radius: 20px;
+    margin-top: 50px;
 }
 
 .cta-btn:hover {
@@ -109,6 +110,7 @@ h2 {
     background-color: #fff;
     color: #000;
 }
+.bt
 
 .btn:hover {
     transition: all 0.3s ease-in-out;
@@ -953,7 +955,7 @@ footer .copyright #designer a:hover {
     margin: 20px 0;
 } */
 
-.wwo-hero p {
+.hero-title p {
     font-size: 20px;
     line-height: 1.5;
     width: 80%;
