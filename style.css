@@ -961,7 +961,57 @@ footer .copyright #designer a:hover {
     width: 80%;
     margin: 0 auto;
 } */
+/* ----------------faculty------------------------------ */
+#faculty {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
 
+#faculty h2 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #333;
+    text-align: center;
+}
+
+#faculty p {
+    font-size: 16px;
+    line-height: 1.8;
+    color: #555;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+#faculty ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#faculty ul li {
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #444;
+}
+
+#faculty ul li b {
+    color: #fe8343; /* Highlight faculty names in brand color */
+}
+
+#faculty ul li::before {
+    content: "✔";
+    margin-right: 10px;
+    color: #290101; /* Subtle accent color for bullet points */
+    font-size: 14px;
+}
+
+
+/* ----------------what we offer---------------------------------- */
 #what-we-offer {
     padding: 20px;
 }
@@ -997,8 +1047,4 @@ footer .copyright #designer a:hover {
     margin-top: 20px;
     text-align: center;
 }
-
-.testimonial {
-    margin: 0 auto;
-    width: 50%;
-}
+/* ----------------courses--------------------------------- */
