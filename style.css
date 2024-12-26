@@ -964,26 +964,30 @@ footer .copyright #designer a:hover {
 /* ----------------faculty------------------------------ */
 #faculty {
     padding: 20px;
-    background-color: #f9f9f9;
-    border: 1px solid #ddd;
+    /* background-color: #f9f9f9; */
+    /* border: 1px solid #ddd; */
     border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    margin-bottom: 20px;
+    /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); */
+    margin-bottom: 10px;
 }
 
 #faculty h2 {
-    font-size: 28px;
+    /* font-size: 28px; */
     font-weight: bold;
     margin-bottom: 15px;
-    color: #333;
+    /* color: #333; */
     text-align: center;
+    font-size: 2.5rem;
+    color: #2c3e50;
+    /* margin-bottom: 10px; */
 }
 
 #faculty p {
     font-size: 16px;
     line-height: 1.8;
     color: #555;
-    margin-bottom: 20px;
+    width: 70%;
+    margin-bottom: 20px auto;
     text-align: justify;
 }
 
@@ -1012,7 +1016,6 @@ footer .copyright #designer a:hover {
 
 
 /* ----------------what we offer---------------------------------- */
-/* What We Offer Section */
 #what-we-offer {
     padding: 60px 20px;
     background-color: #f9f9f9;
