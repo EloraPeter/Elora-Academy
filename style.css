@@ -88,10 +88,10 @@ h2 {
 }
 
 .hero-title p {
-    width: 60%;
+    width: 70%;
     font-size: 20px;
     line-height: 1.7;
-    margin: 10px auto 30px;
+    margin: 10px auto 20px;
     text-align: center;
     color: #eee ;
 }
@@ -955,12 +955,12 @@ footer .copyright #designer a:hover {
     margin: 20px 0;
 } */
 
-.hero-title p {
+/* .hero-title p {
     font-size: 20px;
     line-height: 1.5;
     width: 80%;
     margin: 0 auto;
-}
+} */
 
 #what-we-offer {
     padding: 20px;
