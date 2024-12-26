@@ -97,8 +97,7 @@ h2 {
 }
 
 .cta-btn {
-    padding: 20px 35px;
-    background-color: rgb(238, 81, 8);
+  
     color: white;
     text-decoration: none;
     border-radius: 20px;
@@ -110,7 +109,11 @@ h2 {
     background-color: #fff;
     color: #000;
 }
-.bt
+.btn{
+    padding: 20px 35px;
+    background-color: rgb(238, 81, 8);
+    margin-top: 50px;
+}
 
 .btn:hover {
     transition: all 0.3s ease-in-out;
