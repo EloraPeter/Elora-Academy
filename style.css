@@ -15,7 +15,7 @@ nav {
     padding: 5px 20px;
     background-color: #3333331a;
     position: sticky;
-    top: 0;
+    /* top: 0; */
     transition: transform 0.3s ease-in-out;
     transform: translateY(0);
     z-index: 100;
@@ -55,6 +55,7 @@ nav.hidden {
 #nav-link li a:hover {
     text-decoration: 2px rgb(238, 81, 8) solid underline;
 }
+header
 
 .hero {
     height: 100vh;
@@ -68,7 +69,7 @@ nav.hidden {
 }
 
 .hero .hero-title {
-    margin-top: 5%;
+    /* margin-top: 5%; */
 }
 
 .hero h1 {
