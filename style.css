@@ -1198,13 +1198,12 @@ footer .copyright #designer a:hover {
 h1.contact-heading, h2.contact-subheading {
     color: #2c3e50;
     text-align: center;
-    font-family: 'Poppins', sans-serif;
     margin-bottom: 20px;
 }
 
 #contact-section {
     padding: 60px;
-    background: linear-gradient(to bottom, #ffffff, #e6f7ff);
+    background: linear-gradient(to bottom, #ffffff, #f7b38f);
     border-radius: 15px;
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
     display: flex;
