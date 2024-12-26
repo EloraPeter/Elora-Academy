@@ -772,18 +772,6 @@ footer .copyright #designer a:hover {
   top: -70px;
 }
 
-/* .about-hero h1 {
-    font-size: 50px;
-    margin: 20px 0;
-} */
-
-/* .about-hero p {
-    font-size: 20px;
-    line-height: 1.5;
-    width: 60%;
-    margin: 0 auto;
-} */
-
 /* About Us Section */
 #about-us {
   padding: 50px 0 0;
@@ -1216,6 +1204,58 @@ footer .copyright #designer a:hover {
 
 /* Media Queries */
 
+/* For tablets and larger phones (max-width: 768px) */
+@media (max-width: 768px) {
+    #testimonials .testimonial-container {
+      flex-direction: column;
+      align-items: center;
+    }
+    #testimonials .testimonial-item {
+      width: 90%;
+      margin: 10px 0;
+    }
+    footer .footer-info {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+    footer .footer-info .about,
+    footer .footer-info .contact,
+    footer .footer-info .socials,
+    footer .footer-info .terms {
+      width: 90%;
+      margin-bottom: 20px;
+    }
+  }
+  
+  /* For small screens (max-width: 480px) */
+  @media (max-width: 480px) {
+    #testimonials h2 {
+      font-size: 30px;
+    }
+    #testimonials .testimonial-item {
+      width: 95%;
+    }
+    footer .newsletter h2 {
+      font-size: 24px;
+    }
+    footer .newsletter p {
+      font-size: 16px;
+    }
+    footer .footer-info .about h3,
+    footer .footer-info .contact h3,
+    footer .footer-info .socials h3,
+    footer .footer-info .terms h3 {
+      font-size: 20px;
+    }
+    footer .footer-info .about p,
+    footer .footer-info .contact .contact-link a,
+    footer .footer-info .socials .social-link li a,
+    footer .footer-info .terms ul li a {
+      font-size: 16px;
+    }
+  }
+  
 /* For tablets and larger phones (max-width: 768px) */
 @media (max-width: 768px) {
     .hero-title h1 {
