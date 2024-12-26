@@ -905,7 +905,36 @@ footer .copyright #designer a:hover {
     font-size: 20px;
 }
 
-/* ----------------what we offer page------------------------------- */
+/* Principal's Message Section */
+#princi-message {
+    /* background-color: #f9f9f9; */
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px 30px;
+    margin: 20px auto;
+    width: 90%;
+    max-width: 800px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+#princi-message h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 15px;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+#princi-message p {
+    font-size: 1.2rem;
+    color: #555;
+    line-height: 1.6;
+    margin: 0;
+}
+
+
+/* -----------------------------------what we offer page------------------------------- */
 .wwo-hero {
     background-image: linear-gradient(rgba(238, 81, 8, 0.6), rgba(0, 0, 0, 0.3)),
         url("images/newsletter.jpg");
