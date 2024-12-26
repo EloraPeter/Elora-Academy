@@ -64,7 +64,7 @@ nav.hidden {
         url(images/DALL·E\ 2024-12-22\ 21.53.04\ -\ A\ vibrant\ scene\ of\ students\ using\ their\ laptops\ in\ a\ modern\ school\ setting.\ The\ classroom\ is\ bright\ and\ filled\ with\ natural\ lig.webp);
 
     background-size: cover;
-    top: 0;
+    top: -70px;
 }
 
 .hero .hero-title {
