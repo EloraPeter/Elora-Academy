@@ -936,8 +936,8 @@ footer .copyright #designer a:hover {
 }
 
 
-/* -----------------------------------what we offer page------------------------------- */
-.wwo-hero {
+/* -----------------------------------Academics page------------------------------- */
+.acad-hero {
     background-image: linear-gradient(rgba(238, 81, 8, 0.6), rgba(0, 0, 0, 0.3)),
         url("images/newsletter.jpg");
     background-size: cover;
