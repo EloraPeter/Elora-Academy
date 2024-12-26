@@ -535,7 +535,7 @@ h2 {
     color: #333;
 }
 
-#testimonials .testimonial-item p i {
+i.quote {
     color: rgb(197, 120, 85);
     font-size: 20px;
     margin: 15px 10px;
@@ -760,8 +760,8 @@ footer .copyright #designer a:hover {
     background-position: center;
     color: white;
     text-align: center;
-    padding: 10px 20px;
-    height: 100vh;
+    padding: 90px 20px 10px;
+    height: 90vh;
     position: relative;
     top: -70px;
 }
@@ -913,7 +913,7 @@ footer .copyright #designer a:hover {
     padding: 20px 30px;
     margin: 20px auto;
     width: 90%;
-    max-width: 800px;
+    max-width: 950px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     text-align: center;
 }
@@ -927,7 +927,7 @@ footer .copyright #designer a:hover {
 }
 
 #princi-message p {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     color: #555;
     line-height: 1.6;
     margin: 0;
@@ -948,10 +948,10 @@ footer .copyright #designer a:hover {
     top: -70px;
 }
 
-.wwo-hero h1 {
+/* .wwo-hero h1 {
     font-size: 50px;
     margin: 20px 0;
-}
+} */
 
 .wwo-hero p {
     font-size: 20px;
