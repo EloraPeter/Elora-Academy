@@ -1204,60 +1204,27 @@ footer .copyright #designer a:hover {
 
 /* Media Queries */
 
-/* For tablets and larger phones (max-width: 768px) */
-@media (max-width: 768px) {
-    #testimonials .testimonial-container {
-      flex-direction: column;
+/* General adjustments for medium screens (max-width: 1024px) */
+@media (max-width: 1024px) {
+    .wwo-container {
+      flex-direction: column; /* Stack items vertically */
+      gap: 20px;
+    }
+    .course,
+    .testimonial-item {
+      width: 100%; /* Make courses and testimonials full-width */
+    }
+    #facilities .facility-container {
+      flex-direction: column; /* Stack facility items */
       align-items: center;
     }
-    #testimonials .testimonial-item {
-      width: 90%;
-      margin: 10px 0;
-    }
-    footer .footer-info {
-      flex-direction: column;
-      align-items: center;
-      text-align: center;
-    }
-    footer .footer-info .about,
-    footer .footer-info .contact,
-    footer .footer-info .socials,
-    footer .footer-info .terms {
-      width: 90%;
-      margin-bottom: 20px;
+    #facilities .facility-item {
+      margin: 20px 0; /* Add spacing between stacked items */
     }
   }
   
-  /* For small screens (max-width: 480px) */
-  @media (max-width: 480px) {
-    #testimonials h2 {
-      font-size: 30px;
-    }
-    #testimonials .testimonial-item {
-      width: 95%;
-    }
-    footer .newsletter h2 {
-      font-size: 24px;
-    }
-    footer .newsletter p {
-      font-size: 16px;
-    }
-    footer .footer-info .about h3,
-    footer .footer-info .contact h3,
-    footer .footer-info .socials h3,
-    footer .footer-info .terms h3 {
-      font-size: 20px;
-    }
-    footer .footer-info .about p,
-    footer .footer-info .contact .contact-link a,
-    footer .footer-info .socials .social-link li a,
-    footer .footer-info .terms ul li a {
-      font-size: 16px;
-    }
-  }
-  
-/* For tablets and larger phones (max-width: 768px) */
-@media (max-width: 768px) {
+  /* For tablets and larger phones (max-width: 768px) */
+  @media (max-width: 768px) {
     .hero-title h1 {
       font-size: 60px;
     }
@@ -1301,6 +1268,90 @@ footer .copyright #designer a:hover {
     #facilities .facility-item {
       width: 90%;
       margin: 10px 0;
+    }
+    .about-hero {
+      padding: 60px 20px;
+      height: 70vh;
+    }
+    .about-hero h1 {
+      font-size: 40px;
+    }
+    .about-hero p {
+      font-size: 18px;
+    }
+    .team {
+      flex-direction: column;
+      align-items: center;
+    }
+    .team-member {
+      width: 90%;
+      margin-bottom: 20px;
+    }
+    #mission,
+    #values {
+      flex-direction: column;
+      align-items: center;
+    }
+    #mission .mission-image img,
+    #values .value-image img {
+      width: 90%;
+      margin-bottom: 20px;
+    }
+    #mission .mission-text,
+    #values .value-text {
+      width: 90%;
+    }
+    #princi-message {
+      width: 95%;
+      padding: 10px 20px;
+    }
+    .acad-hero {
+      padding: 60px 20px;
+      height: 70vh;
+    }
+    #testimonials .testimonial-container {
+      flex-direction: column;
+      align-items: center;
+    }
+    #testimonials .testimonial-item {
+      width: 90%;
+      margin: 10px 0;
+    }
+    footer .footer-info {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+    footer .footer-info .about,
+    footer .footer-info .contact,
+    footer .footer-info .socials,
+    footer .footer-info .terms {
+      width: 90%;
+      margin-bottom: 20px;
+    }
+    #what-we-offer p,
+    #courses p {
+      font-size: 1.2rem;
+      max-width: 90%;
+    }
+    .wwo-container {
+      flex-direction: column;
+      align-items: center;
+    }
+    .wwo-item {
+      width: 90%;
+      margin: 10px 0;
+    }
+    .section.grid {
+      grid-template-columns: 1fr;
+    }
+    #admissions h2 {
+      font-size: 1.5rem;
+    }
+    #admissions p,
+    #admissions ol li,
+    #admissions ul li {
+      font-size: 0.9rem;
     }
   }
   
@@ -1351,142 +1402,6 @@ footer .copyright #designer a:hover {
     #facilities h2 {
       font-size: 40px;
     }
-  }
-  
-/* General adjustments for small screens */
-@media (max-width: 768px) {
-    body {
-        font-size: 14px; /* Adjust base font size for readability */
-    }
-
-    nav {
-        flex-direction: column; /* Stack navigation items vertically */
-        align-items: flex-start;
-    }
-
-    #nav-link {
-        flex-direction: column;
-        gap: 10px;
-    }
-
-    .hero-title h1 {
-        font-size: 2.5rem; /* Reduce hero title size */
-    }
-
-    .hero-title p {
-        font-size: 1rem;
-        width: 90%;
-    }
-
-    button {
-        padding: 15px 20px; /* Adjust button size */
-        font-size: 16px;
-    }
-}
-
-/* Adjustments for very small screens */
-@media (max-width: 480px) {
-    nav {
-        padding: 10px; /* Reduce padding */
-    }
-
-    #about {
-        width: 90%;
-        left: 5%; /* Center the section on smaller screens */
-        padding: 20px;
-    }
-
-    .team-member {
-        width: 90%; /* Make team member cards stack */
-    }
-
-    #faculty ul {
-        margin: 0 5%; /* Adjust list margins */
-    }
-
-    #faculty ul li {
-        font-size: 14px; /* Reduce list item font size */
-    }
-
-    #what-we-offer .wwo-item {
-        width: 90%; /* Stack offer items */
-    }
-
-    #admissions h2 {
-        font-size: 1.5rem; /* Adjust section heading sizes */
-    }
-
-    #admissions p {
-        font-size: 0.9rem; /* Reduce paragraph font size */
-    }
-}
-
-/* Adjustments for medium screens */
-@media (max-width: 1024px) {
-    .wwo-container {
-        flex-direction: column; /* Stack items vertically */
-        gap: 20px;
-    }
-
-    .course,
-    .testimonial-item {
-        width: 100%; /* Make courses and testimonials full-width */
-    }
-
-    #facilities .facility-container {
-        flex-direction: column; /* Stack facility items */
-        align-items: center;
-    }
-
-    #facilities .facility-item {
-        margin: 20px 0; /* Add spacing between stacked items */
-    }
-}
-/* Media Queries */
-
-/* For tablets and larger phones (max-width: 768px) */
-@media (max-width: 768px) {
-    .about-hero {
-      padding: 60px 20px;
-      height: 70vh;
-    }
-    .about-hero h1 {
-      font-size: 40px;
-    }
-    .about-hero p {
-      font-size: 18px;
-    }
-    .team {
-      flex-direction: column;
-      align-items: center;
-    }
-    .team-member {
-      width: 90%;
-      margin-bottom: 20px;
-    }
-    #mission, #values {
-      flex-direction: column;
-      align-items: center;
-    }
-    #mission .mission-image img, #values .value-image img {
-      width: 90%;
-      margin-bottom: 20px;
-    }
-    #mission .mission-text, #values .value-text {
-      width: 90%;
-    }
-    #princi-message {
-      width: 95%;
-      padding: 10px 20px;
-    }
-    .acad-hero {
-      padding: 60px 20px;
-      height: 70vh;
-    }
-  }
-  
-  /* For small screens (max-width: 480px) */
-  @media (max-width: 480px) {
     .about-hero {
       padding: 30px 20px;
       height: 60vh;
@@ -1513,10 +1428,12 @@ footer .copyright #designer a:hover {
     .team-member p {
       font-size: 14px;
     }
-    #mission .mission-text h2, #values .value-text h2 {
+    #mission .mission-text h2,
+    #values .value-text h2 {
       font-size: 30px;
     }
-    #mission .mission-text p, #values .value-text p {
+    #mission .mission-text p,
+    #values .value-text p {
       font-size: 16px;
     }
     #princi-message h2 {
@@ -1545,39 +1462,30 @@ footer .copyright #designer a:hover {
     #faculty ul li {
       font-size: 14px;
     }
-  }
-  /* Media Queries */
-
-/* For tablets and larger phones (max-width: 768px) */
-@media (max-width: 768px) {
-    #what-we-offer p,
-    #courses p {
-      font-size: 1.2rem;
-      max-width: 90%;
+    #testimonials h2 {
+      font-size: 30px;
     }
-    .wwo-container {
-      flex-direction: column;
-      align-items: center;
+    #testimonials .testimonial-item {
+      width: 95%;
     }
-    .wwo-item {
-      width: 90%;
-      margin: 10px 0;
+    footer .newsletter h2 {
+      font-size: 24px;
     }
-    .section.grid {
-      grid-template-columns: 1fr;
+    footer .newsletter p {
+      font-size: 16px;
     }
-    #admissions h2 {
-      font-size: 1.5rem;
+    footer .footer-info .about h3,
+    footer .footer-info .contact h3,
+    footer .footer-info .socials h3,
+    footer .footer-info .terms h3 {
+      font-size: 20px;
     }
-    #admissions p,
-    #admissions ol li,
-    #admissions ul li {
-      font-size: 0.9rem;
+    footer .footer-info .about p,
+    footer .footer-info .contact .contact-link a,
+    footer .footer-info .socials .social-link li a,
+    footer .footer-info .terms ul li a {
+      font-size: 16px;
     }
-  }
-  
-  /* For small screens (max-width: 480px) */
-  @media (max-width: 480px) {
     #what-we-offer h2,
     #courses h2 {
       font-size: 2rem;
