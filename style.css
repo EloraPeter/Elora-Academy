@@ -73,14 +73,14 @@ nav.hidden {
     padding-top: 5%;
 }
 
- h1 {
+h1 {
     font-size: 100px;
     text-align: center;
     margin: 10px 0;
     color: #fff;
 }
 
- h2 {
+h2 {
     font-size: 60px;
     text-align: center;
     margin: 10px 0;
@@ -228,71 +228,32 @@ nav.hidden {
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
 }
 
-/* -------------------mission------------------- */
-#mission {
-    margin-top: 200px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-#mission .mission-image {
-    margin: 0 20px;
-}
-
-#mission .mission-image img {
-    width: 800px;
-    height: auto;
-    border-radius: 20px;
-}
-
-#mission .mission-text {
+/* Mission & Vision Section */
+.mission-vision {
+    background: linear-gradient(rgba(238, 81, 8, 0.6), rgba(0, 0, 0, 0.3)),
+        url("images/elibrary.jpeg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: bottom center;
+    color: white;
+    padding: 150px 20px;
     text-align: center;
-    padding: 0 20px;
 }
 
-#mission .mission-text h2 {
-    font-size: 50px;
-    color: rgb(238, 81, 8);
+.mission-vision h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: #fff;
 }
 
-#mission .mission-text p {
-    line-height: 2;
+.mission-vision p {
     font-size: 20px;
+    line-height: 1.8;
+    width: 70%;
+    margin: 0 auto;
 }
 
-/* ===============value========================= */
-#values {
-    margin-top: 50px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
 
-#values .value-image {
-    margin: 0 20px;
-}
-
-#values .value-image img {
-    width: 800px;
-    height: auto;
-    border-radius: 20px;
-}
-
-#values .value-text {
-    text-align: center;
-    padding: 0 20px;
-}
-
-#values .value-text h2 {
-    font-size: 50px;
-    color: rgb(238, 81, 8);
-}
-
-#values .value-text p {
-    line-height: 2;
-    font-size: 20px;
-}
 
 /* -----------------offer---------------------------- */
 #offer {
@@ -878,29 +839,70 @@ footer .copyright #designer a:hover {
     color: #666;
 }
 
-/* Mission & Vision Section */
-.mission-vision {
-    background: linear-gradient(rgba(238, 81, 8, 0.6), rgba(0, 0, 0, 0.3)),
-        url("images/elibrary.jpeg");
-    background-attachment: fixed;
-    background-size: cover;
-    background-position: bottom center;
-    color: white;
-    padding: 150px 20px;
+/* -------------------mission------------------- */
+#mission {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#mission .mission-image {
+    margin: 0 20px;
+}
+
+#mission .mission-image img {
+    width: 800px;
+    height: auto;
+    border-radius: 20px;
+}
+
+#mission .mission-text {
     text-align: center;
+    padding: 0 20px;
 }
 
-.mission-vision h2 {
-    font-size: 40px;
-    margin-bottom: 20px;
-    color: #fff;
+#mission .mission-text h2 {
+    font-size: 50px;
+    color: rgb(238, 81, 8);
 }
 
-.mission-vision p {
+#mission .mission-text p {
+    line-height: 2;
     font-size: 20px;
-    line-height: 1.8;
-    width: 70%;
-    margin: 0 auto;
+}
+
+/* ===============value========================= */
+#values {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#values .value-image {
+    margin: 0 20px;
+}
+
+#values .value-image img {
+    width: 800px;
+    height: auto;
+    border-radius: 20px;
+}
+
+#values .value-text {
+    text-align: center;
+    padding: 0 20px;
+}
+
+#values .value-text h2 {
+    font-size: 50px;
+    color: rgb(238, 81, 8);
+}
+
+#values .value-text p {
+    line-height: 2;
+    font-size: 20px;
 }
 
 /* ----------------what we offer page------------------------------- */
