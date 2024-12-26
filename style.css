@@ -1030,10 +1030,12 @@ footer .copyright #designer a:hover {
 }
 
 #what-we-offer p {
-    font-size: 1rem;
+    font-size: 1.4rem;
     color: #7f8c8d;
-    max-width: 700px;
+    max-width: 70%;
+    line-height: 1.5;
     margin: 0 auto;
+    padding-bottom: 10px;
 }
 
 .wwo-container {
@@ -1048,7 +1050,7 @@ footer .copyright #designer a:hover {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     padding: 20px;
     border-radius: 8px;
-    width: 300px;
+    width: 400px;
     transition: transform 0.3s, box-shadow 0.3s;
 }
 
