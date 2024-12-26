@@ -59,7 +59,9 @@ nav.hidden {
     position: relative;
     background: linear-gradient(rgba(238, 81, 8, 0.6), rgba(122, 11, 11, 0.4)),
         url(images/DALL·E\ 2024-12-22\ 21.53.04\ -\ A\ vibrant\ scene\ of\ students\ using\ their\ laptops\ in\ a\ modern\ school\ setting.\ The\ classroom\ is\ bright\ and\ filled\ with\ natural\ lig.webp);
-}
+
+    background-size: cover;
+    }
 
 .hero .hero-title {
     margin-top: 5%;
