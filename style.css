@@ -1212,3 +1212,95 @@ footer .copyright #designer a:hover {
 #admissions p a:hover {
   text-decoration: underline;
 }
+
+
+/* media queries  */
+/* General adjustments for small screens */
+@media (max-width: 768px) {
+    body {
+        font-size: 14px; /* Adjust base font size for readability */
+    }
+
+    nav {
+        flex-direction: column; /* Stack navigation items vertically */
+        align-items: flex-start;
+    }
+
+    #nav-link {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .hero-title h1 {
+        font-size: 2.5rem; /* Reduce hero title size */
+    }
+
+    .hero-title p {
+        font-size: 1rem;
+        width: 90%;
+    }
+
+    button {
+        padding: 15px 20px; /* Adjust button size */
+        font-size: 16px;
+    }
+}
+
+/* Adjustments for very small screens */
+@media (max-width: 480px) {
+    nav {
+        padding: 10px; /* Reduce padding */
+    }
+
+    #about {
+        width: 90%;
+        left: 5%; /* Center the section on smaller screens */
+        padding: 20px;
+    }
+
+    .team-member {
+        width: 90%; /* Make team member cards stack */
+    }
+
+    #faculty ul {
+        margin: 0 5%; /* Adjust list margins */
+    }
+
+    #faculty ul li {
+        font-size: 14px; /* Reduce list item font size */
+    }
+
+    #what-we-offer .wwo-item {
+        width: 90%; /* Stack offer items */
+    }
+
+    #admissions h2 {
+        font-size: 1.5rem; /* Adjust section heading sizes */
+    }
+
+    #admissions p {
+        font-size: 0.9rem; /* Reduce paragraph font size */
+    }
+}
+
+/* Adjustments for medium screens */
+@media (max-width: 1024px) {
+    .wwo-container {
+        flex-direction: column; /* Stack items vertically */
+        gap: 20px;
+    }
+
+    .course,
+    .testimonial-item {
+        width: 100%; /* Make courses and testimonials full-width */
+    }
+
+    #facilities .facility-container {
+        flex-direction: column; /* Stack facility items */
+        align-items: center;
+    }
+
+    #facilities .facility-item {
+        margin: 20px 0; /* Add spacing between stacked items */
+    }
+}
