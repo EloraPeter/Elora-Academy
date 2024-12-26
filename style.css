@@ -1357,7 +1357,7 @@ footer .copyright #designer a:hover {
   }
   
   /* For small screens (max-width: 480px) */
-  @media (max-width: 480px) {
+  /* @media (max-width: 480px) {
     nav {
       flex-direction: column;
     }
@@ -1506,5 +1506,240 @@ footer .copyright #designer a:hover {
     #admissions ul li {
       font-size: 0.8rem;
     }
-  }
+  } */
+  
+  /* @media (max-width: 480px) {
+    nav {
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 10px;
+    }
+  
+    #nav-link {
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 0;
+    }
+  
+    #nav-link li {
+      margin: 10px 0;
+      font-size: 16px;
+    }
+  
+    #logo {
+      width: 60px;
+      margin-bottom: 10px;
+    }
+  
+    .hero-title h1 {
+      font-size: 36px;
+      text-align: center;
+    }
+  
+    .hero-title p {
+      font-size: 14px;
+      text-align: center;
+      padding: 0 10px;
+    }
+  
+    h2 {
+      font-size: 28px;
+    }
+  
+    #about {
+      width: 90%;
+      margin: 0 auto;
+    }
+  
+    .mission-vision h2 {
+      font-size: 22px;
+      text-align: center;
+    }
+  
+    .mission-vision p {
+      font-size: 14px;
+      line-height: 1.6;
+      padding: 0 10px;
+      text-align: justify;
+    }
+  
+    #offer h2,
+    #course h2,
+    #extracurriculars .extracurricular-info h2,
+    #facilities h2 {
+      font-size: 32px;
+      text-align: center;
+    }
+  
+    .about-hero {
+      padding: 20px 15px;
+      height: 50vh;
+    }
+  
+    .about-hero h1 {
+      font-size: 28px;
+      text-align: center;
+    }
+  
+    .about-hero p {
+      font-size: 14px;
+      line-height: 1.6;
+      text-align: justify;
+      padding: 0 10px;
+    }
+  
+    .story h2 {
+      font-size: 22px;
+      text-align: center;
+    }
+  
+    .story p {
+      width: 95%;
+      font-size: 14px;
+      margin: 0 auto;
+      line-height: 1.6;
+      text-align: justify;
+    }
+  
+    .team-member img {
+      height: 120px;
+      width: auto;
+    }
+  
+    .team-member h3 {
+      font-size: 16px;
+      text-align: center;
+    }
+  
+    .team-member p {
+      font-size: 12px;
+      text-align: center;
+    }
+  
+    #mission .mission-text h2,
+    #values .value-text h2 {
+      font-size: 28px;
+      text-align: center;
+    }
+  
+    #mission .mission-text p,
+    #values .value-text p {
+      font-size: 14px;
+      line-height: 1.6;
+      padding: 0 10px;
+      text-align: justify;
+    }
+  
+    #princi-message h2 {
+      font-size: 20px;
+      text-align: center;
+    }
+  
+    #princi-message p {
+      font-size: 14px;
+      text-align: justify;
+      line-height: 1.6;
+      padding: 0 10px;
+    }
+  
+    .acad-hero {
+      padding: 20px 15px;
+      height: 50vh;
+    }
+  
+    .acad-hero h1 {
+      font-size: 28px;
+      text-align: center;
+    }
+  
+    .acad-hero p {
+      font-size: 14px;
+      text-align: justify;
+      line-height: 1.6;
+    }
+  
+    #faculty h2 {
+      font-size: 24px;
+      text-align: center;
+    }
+  
+    #faculty p {
+      font-size: 14px;
+      width: 95%;
+      line-height: 1.6;
+      margin: 0 auto;
+      text-align: justify;
+    }
+  
+    #faculty ul li {
+      font-size: 14px;
+    }
+  
+    #testimonials h2 {
+      font-size: 28px;
+      text-align: center;
+    }
+  
+    #testimonials .testimonial-item {
+      width: 95%;
+      margin: 10px auto;
+    }
+  
+    footer .newsletter h2 {
+      font-size: 20px;
+      text-align: center;
+    }
+  
+    footer .newsletter p {
+      font-size: 14px;
+      text-align: justify;
+      line-height: 1.6;
+    }
+  
+    footer .footer-info .about h3,
+    footer .footer-info .contact h3,
+    footer .footer-info .socials h3,
+    footer .footer-info .terms h3 {
+      font-size: 18px;
+    }
+  
+    footer .footer-info .about p,
+    footer .footer-info .contact .contact-link a,
+    footer .footer-info .socials .social-link li a,
+    footer .footer-info .terms ul li a {
+      font-size: 14px;
+    }
+  
+    #what-we-offer h2,
+    #courses h2 {
+      font-size: 28px;
+      text-align: center;
+    }
+  
+    #what-we-offer p,
+    #courses p {
+      font-size: 14px;
+      text-align: justify;
+      line-height: 1.6;
+    }
+  
+    .wwo-item {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+  
+    #admissions h2 {
+      font-size: 18px;
+      text-align: center;
+    }
+  
+    #admissions p,
+    #admissions ol li,
+    #admissions ul li {
+      font-size: 14px;
+      line-height: 1.6;
+      padding: 0 10px;
+      text-align: justify;
+    }
+  } */
   
