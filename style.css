@@ -1214,7 +1214,105 @@ footer .copyright #designer a:hover {
 }
 
 
-/* media queries  */
+/* Media Queries */
+
+/* For tablets and larger phones (max-width: 768px) */
+@media (max-width: 768px) {
+    .hero-title h1 {
+      font-size: 60px;
+    }
+    h2 {
+      font-size: 40px;
+    }
+    .hero-title p {
+      width: 90%;
+      font-size: 18px;
+    }
+    #about {
+      width: 90%;
+      left: 5%;
+    }
+    .mission-vision h2 {
+      font-size: 30px;
+    }
+    .mission-vision p {
+      font-size: 18px;
+    }
+    #offer .offer-container {
+      flex-direction: column;
+      align-items: center;
+    }
+    #offer .offer-container .offer-item {
+      width: 90%;
+      margin: 10px 0;
+    }
+    #course .course-container {
+      flex-direction: column;
+      align-items: center;
+    }
+    #course .course-container .course-item {
+      width: 90%;
+      margin: 10px 0;
+    }
+    #facilities .facility-container {
+      flex-direction: column;
+      align-items: center;
+    }
+    #facilities .facility-item {
+      width: 90%;
+      margin: 10px 0;
+    }
+  }
+  
+  /* For small screens (max-width: 480px) */
+  @media (max-width: 480px) {
+    nav {
+      flex-direction: column;
+    }
+    #nav-link {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+    #nav-link li {
+      margin: 5px 0;
+      font-size: 14px;
+    }
+    #logo {
+      width: 50px;
+    }
+    .hero-title h1 {
+      font-size: 40px;
+    }
+    h2 {
+      font-size: 30px;
+    }
+    .hero-title p {
+      font-size: 16px;
+    }
+    #about {
+      width: 95%;
+      left: 2.5%;
+    }
+    .mission-vision h2 {
+      font-size: 25px;
+    }
+    .mission-vision p {
+      font-size: 16px;
+    }
+    #offer h2 {
+      font-size: 40px;
+    }
+    #course h2 {
+      font-size: 40px;
+    }
+    #extracurriculars .extracurricular-info h2 {
+      font-size: 40px;
+    }
+    #facilities h2 {
+      font-size: 40px;
+    }
+  }
+  
 /* General adjustments for small screens */
 @media (max-width: 768px) {
     body {
