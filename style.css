@@ -1123,7 +1123,8 @@ footer .copyright #designer a:hover {
 
 /* --------------------------------admissions page-------------------------------------- */
 .admission-hero {
-    background: linear-gradient(to bottom, #fe8343, #ff5722), url('images/elibrary.jpeg');
+    background: linear-gradient(to bottom, #fe8343, #ff5722), url('images/elibrary.jpeg'); 
+    background-blend-mode: overlay;    
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -1134,7 +1135,7 @@ footer .copyright #designer a:hover {
 
 header {
     
-        color: #fff;
+        /* color: #fff; */
     text-align: center;
     padding: 50px 20px;
 }
