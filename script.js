@@ -39,7 +39,7 @@ window.addEventListener("scroll", () => {
         if (!isScrolling) {
             hideNavbar();
         }
-    }, 1000);
+    }, 700);
 
     // Update scroll position to determine scroll direction
     lastScrollPosition = window.scrollY;
