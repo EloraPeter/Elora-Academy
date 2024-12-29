@@ -1231,25 +1231,25 @@ h2.contact-subheading{
 .contact-info h3 {
     font-size: 50px;
     margin-bottom: 20px;
-    color: #ff5722;
+    color: #581906;
 }
 
-.contact-info a {
+.contact-info h4 {
     color: #ff5722;
-    text-decoration: none;
-    font-size: 16px;
+   
+    font-size: 22px;
     display: block;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
 
 .contact-info a:hover {
     text-decoration: underline;
 }
 
-.contact-info p {
+.contact-info a {
     font-size: 16px;
     color: #555;
-    margin-bottom: 15px;
+    text-decoration: none;
 }
 
 .contact-form {
